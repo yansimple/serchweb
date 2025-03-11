@@ -10,10 +10,10 @@ from urllib.parse import urljoin
 GOOGLE_SEARCH_API_KEY = "AIzaSyDog8YsSLLCIbTmX7o3gqDnCnXHmP6ui9I"
 GOOGLE_SEARCH_ENGINE_ID = "142dfc561543a4153"
 GOOGLE_SEARCH_URL = "https://www.googleapis.com/customsearch/v1"
-NUM_LINKS_TO_COLLECT = 400
-TIMEOUT = 30
+NUM_LINKS_TO_COLLECT = 100
+TIMEOUT = 5
 CONTACT_PAGE_KEYWORDS = ['контакты', 'связаться', 'правообладатели', 'contact', 'copyright', 'contacts']
-MAX_PAGES_TO_SEARCH = 5
+MAX_PAGES_TO_SEARCH = 2
 DELAY_BETWEEN_REQUESTS = 2
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
